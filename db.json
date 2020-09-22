@@ -1,0 +1,117 @@
+{
+    "participant": [
+        {
+            "id": 0,
+            "tournament_id": 0,
+            "name": "Preston"
+        },
+        {
+            "id": 1,
+            "tournament_id": 0,
+            "name": "G"
+        },
+        {
+            "id": 2,
+            "tournament_id": 0,
+            "name": "Salman"
+        },
+        {
+            "id": 3,
+            "tournament_id": 0,
+            "name": "OnyiKing"
+        }
+    ],
+    "stage": [
+        {
+            "id": 0,
+            "tournament_id": 0,
+            "name": "Amateur",
+            "type": "round_robin",
+            "number": 1,
+            "settings": {
+                "groupCount": 2
+            }
+        }
+    ],
+    "group": [
+        {
+            "id": 0,
+            "stage_id": 0,
+            "name": "Group 1",
+            "number": 1
+        },
+        {
+            "id": 1,
+            "stage_id": 0,
+            "name": "Group 2",
+            "number": 2
+        }
+    ],
+    "round": [
+        {
+            "id": 0,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 0
+        },
+        {
+            "id": 1,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 1
+        }
+    ],
+    "match": [
+        {
+            "id": 0,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 0,
+            "round_id": 0,
+            "child_count": 0,
+            "status": "completed",
+            "locked": false,
+            "scheduled_datetime": null,
+            "start_datetime": null,
+            "end_datetime": null,
+            "opponent1": {
+                "id": 0,
+                "position": 1,
+                "score": 16,
+                "result": "win"
+            },
+            "opponent2": {
+                "id": 2,
+                "position": 3,
+                "score": 12,
+                "result": "loss"
+            }
+        },
+        {
+            "id": 1,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 1,
+            "child_count": 0,
+            "status": "completed",
+            "locked": false,
+            "scheduled_datetime": null,
+            "start_datetime": null,
+            "end_datetime": null,
+            "opponent1": {
+                "id": 1,
+                "position": 2,
+                "score": 13,
+                "result": "loss"
+            },
+            "opponent2": {
+                "id": 3,
+                "position": 4,
+                "score": 18,
+                "result": "win"
+            }
+        }
+    ],
+    "match_game": []
+}
